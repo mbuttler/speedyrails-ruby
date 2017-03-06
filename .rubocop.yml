@@ -1,0 +1,45 @@
+AllCops:
+  TargetRubyVersion: 2.0
+  Exclude:
+    - bin/*
+    - Gemfile
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 35
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+
+Style/Documentation:
+  Enabled: false
+
+Style/Encoding:
+  EnforcedStyle: when_needed
+  Enabled: true
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Style/BracesAroundHashParameters:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
