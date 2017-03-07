@@ -27,7 +27,7 @@ Create an instance of the client to interact with the API
 ```ruby
 require 'speedyrails'
 
-client = Speedyrails.new(token: TOKEN)
+client = Speedyrails.new(api_token: TOKEN)
 ```
 
 ### Certificates
